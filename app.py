@@ -7,6 +7,15 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.markdown("""
+<style>
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # ── Custom CSS ────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
